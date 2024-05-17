@@ -1,6 +1,22 @@
 # Stock Prediction Website
+This is a Streamlit application for stock prediction. Follow the instructions below to set up and run the application on your local machine.
 
-## Setup
+## Prerequisites
+
+- Python 3.7 or higher
+- Pip (Python package installer)
+
+
+## Setup Instructions
+
+1. Clone the repository or download the source code:
+
+```bash
+git clone https://github.com/yourusername/stock-prediction-website.git
+cd stock-prediction-website
+```
+
+2. Set a virtual environment(Optional)
 
 To run the program, it's recommended to use a virtual environment. Here's how to set it up:
 
@@ -18,11 +34,20 @@ virtualenv myenv
 source myenv/bin/activate
 ```
 
+3. Install the required packages
+
 To install the required packages, make sure you have pip installed and run:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+4. Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
 ---
 
 ### Tools
