@@ -19,6 +19,7 @@ def fetch_sp500_tickers():
 
     return tickers
 
+@st.cache_data
 def fetch_company_names(tickers):
     company_data = []
     for ticker in tickers:
