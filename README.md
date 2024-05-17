@@ -1,6 +1,8 @@
 # Stock Prediction Website
 This is a Streamlit application for stock prediction. Follow the instructions below to set up and run the application on your local machine.
 
+Wanna try? go to the [website](https://stock-prediction-website-ioztimur.streamlit.app)
+
 ## Prerequisites
 
 - Python 3.7 or higher
